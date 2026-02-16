@@ -69,13 +69,22 @@ export default function Services() {
           {services.map((service, index: number) => (
             <div key={service.title} className="relative">
               <div
-                onClick={() => toggleCard(index)}
-                className="cursor-pointer p-8 rounded-2xl bg-slate-800/60 backdrop-blur border border-slate-700 hover:border-amber-400/50 transition shadow-xl"
-              >
-                <p className="text-xl font-medium tracking-wide">
-                  {service.title}
-                </p>
-              </div>
+  onClick={() => toggleCard(index)}
+  className="cursor-pointer p-8 rounded-2xl bg-slate-800/60 backdrop-blur border border-slate-700 hover:border-amber-400/50 transition shadow-xl flex justify-between items-center"
+>
+  <p className="text-xl font-medium tracking-wide">
+    {service.title}
+  </p>
+
+  <span
+    className={`text-2xl font-light text-white transition-transform duration-300 ${
+      active === index ? "rotate-45" : ""
+    }`}
+  >
+    +
+  </span>
+</div>
+
 
               {active === index && (
                 <div className="absolute left-0 top-full mt-4 w-full z-50 bg-slate-900 border border-slate-700 rounded-2xl shadow-2xl p-6">
