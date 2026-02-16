@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { playfair,cormorant,baskerville } from "@/lib/fonts";
 
 export default function Hero() {
   return (
@@ -6,7 +7,7 @@ export default function Hero() {
 
       <div className="relative max-w-3xl text-center">
 
-        {/* Logo más pequeño */}
+        {/* Logo*/}
         <div className="flex justify-center">
           <Image
             src="/LogoB.jpeg"
@@ -29,7 +30,9 @@ export default function Hero() {
         </span>
 
         {/* Frase principal */}
-        <h2 className="mt-8 text-4xl md:text-5xl font-semibold text-[#1E2D4F] leading-tight font-times">
+<h2 className={`mt-8 text-4xl md:text-5xl font-semibold text-[#1E2D4F] leading-tight ${baskerville.className}`}>
+
+
           Estrategia legal para decisiones importantes
         </h2>
 
