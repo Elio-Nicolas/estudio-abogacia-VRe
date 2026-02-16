@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-
+import { playfair, } from "@/lib/fonts";
 interface Service {
   title: string;
   items: string[];
@@ -61,7 +61,7 @@ export default function Services() {
   return (
     <section className="py-28 px-6">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-semibold text-center">
+       <h2 className={`mt-8 text-3xl md:text-4xl font-semibold text-[#E8ECF0] leading-tight text-center ${playfair.className}`}>
           Áreas de práctica
         </h2>
 
