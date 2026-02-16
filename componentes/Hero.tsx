@@ -30,7 +30,7 @@ export default function Hero() {
         </span>
 
         {/* Frase principal */}
-<h2 className={`mt-8 text-4xl md:text-5xl font-semibold text-[#1E2D4F] leading-tight ${playfair.className}`}>
+        <h2 className={`mt-8 text-4xl md:text-5xl font-semibold text-[#1E2D4F] leading-tight ${playfair.className}`}>
           Estrategia legal para decisiones importantes
         </h2>
 
