@@ -17,11 +17,13 @@ export default function Contact() {
           Coordina tu consulta, y recibí asesoramiento legal eficiente.
         </p>
 
-        <div className="mt-10 space-y-4 text-lg">
-          <p className={`mt-8 text-[#E8ECF0] text-lg leading-relaxed ${playfair.className}`}> 
-            abg.valentinare@gmail.com.ar</p>
-          <p className={`mt-8 text-[#E8ECF0] text-lg leading-relaxed ${playfair.className}`}>
-            Villa Mercedes, San Luis</p>
+        <div className="mt-10 space-y-2 text-lg">
+          <p className={`text-[#E8ECF0] text-lg leading-relaxed ${playfair.className}`}>
+           abg.valentinare@gmail.com.ar
+          </p>
+          <p className={`text-[#E8ECF0] text-lg leading-relaxed ${playfair.className}`}>
+           Villa Mercedes, San Luis
+          </p>
         </div>
 
         <a

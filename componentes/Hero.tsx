@@ -25,9 +25,10 @@ export default function Hero() {
         </h1>
 
         {/* Profesión */}
-        <span className="block mt-4 uppercase tracking-[0.35em] text-sm text-[#C6A75E]">
+        <span className="block mt-4 uppercase tracking-[0.45em] text-base font-semibold text-[#C6A75E]">
           Abogada
         </span>
+
 
         {/* Frase principal */}
         <h2 className={`mt-8 text-4xl md:text-5xl font-semibold text-[#1E2D4F] leading-tight ${playfair.className}`}>
