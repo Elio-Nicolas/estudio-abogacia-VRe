@@ -18,7 +18,7 @@ export default function Contact() {
         </p>
 
         <div className="mt-10 space-y-2 text-lg">
-          <p className={`text-[#E8ECF0] text-lg leading-relaxed ${playfair.className}`}>
+          <p className={`text-[#C6A75E] text-lg leading-relaxed ${playfair.className}`}>
            abg.valentinare@gmail.com.ar
           </p>
           <p className={`text-[#E8ECF0] text-lg leading-relaxed ${playfair.className}`}>

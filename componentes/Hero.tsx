@@ -10,7 +10,7 @@ export default function Hero() {
         {/* Logo*/}
         <div className="flex justify-center">
           <Image
-            src="/LogoB.jpeg"
+            src="/logo VR.png"
             alt="Logo Valentina Re"
             width={200}
             height={200}
@@ -20,12 +20,12 @@ export default function Hero() {
         </div>
 
         {/* Nombre */}
-        <h1 className="mt-8 text-5xl md:text-6xl font-bold text-[#1E2D4F] leading-tight">
+        <h1 className={`mt-8 text-5xl md:text-6xl font-bold text-[#1E2D4F] leading-tight ${playfair.className}`}>
           Valentina Re
         </h1>
 
         {/* Profesión */}
-        <span className="block mt-4 uppercase tracking-[0.45em] text-base font-semibold text-[#C6A75E]">
+        <span className="block mt-4 uppercase tracking-[0.55em] text-base font-semibold text-[#C6A75E]">
           Abogada
         </span>
 
@@ -36,10 +36,10 @@ export default function Hero() {
         </h2>
 
         {/* Subtexto */}
-      <p className={`mt-8 text-[#2E3A59] text-lg leading-relaxed ${playfair.className}`}>
+      <p className={`mt-8 text-[#2E3A59] text-lg leading-relaxed italic ${playfair.className}`}>
+       Claridad, compromiso y solidez en la defensa de tus derechos
+      </p>
 
-          Claridad, compromiso y solidez en la defensa de tus derechos
-        </p>
 
         {/* Botón */}
         <div className="mt-12">
