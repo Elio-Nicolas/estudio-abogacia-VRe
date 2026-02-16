@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="absolute w-[500px] h-[500px] bg-amber-500/10 blur-[120px] rounded-full bottom-[-200px] right-[-200px]" />
 
       <div className="relative max-w-4xl mx-auto text-center">
-        <h2 className={`mt-8 text-3xl md:text-4xl font-semibold text-[#E8ECF0] leading-tight text-center ${playfair.className}`}>
+        <h2 className={`mt-8 text-4xl md:text-5xl font-semibold text-[#E8ECF0] leading-tight text-center ${playfair.className}`}>
           Contacto
         </h2>
 
@@ -18,8 +18,10 @@ export default function Contact() {
         </p>
 
         <div className="mt-10 space-y-4 text-lg">
-          <p> abg.valentinare@gmail.com.ar</p>
-            <p> Villa Mercedes, San Luis</p>
+          <p className={`mt-8 text-[#E8ECF0] text-lg leading-relaxed ${playfair.className}`}> 
+            abg.valentinare@gmail.com.ar</p>
+          <p className={`mt-8 text-[#E8ECF0] text-lg leading-relaxed ${playfair.className}`}>
+            Villa Mercedes, San Luis</p>
         </div>
 
         <a
