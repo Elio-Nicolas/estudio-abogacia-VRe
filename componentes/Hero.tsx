@@ -30,14 +30,13 @@ export default function Hero() {
         </span>
 
         {/* Frase principal */}
-<h2 className={`mt-8 text-4xl md:text-5xl font-semibold text-[#1E2D4F] leading-tight ${baskerville.className}`}>
-
-
+<h2 className={`mt-8 text-4xl md:text-5xl font-semibold text-[#1E2D4F] leading-tight ${playfair.className}`}>
           Estrategia legal para decisiones importantes
         </h2>
 
         {/* Subtexto */}
-        <p className="mt-8 text-[#2E3A59] text-lg leading-tigth font-times">
+      <p className={`mt-8 text-[#2E3A59] text-lg leading-relaxed ${playfair.className}`}>
+
           Claridad, compromiso y solidez en la defensa de tus derechos
         </p>
 
