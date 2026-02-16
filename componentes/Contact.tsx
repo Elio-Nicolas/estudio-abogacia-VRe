@@ -1,3 +1,5 @@
+import { playfair,cormorant,baskerville } from "@/lib/fonts";
+
 export default function Contact() {
   return (
     <section
@@ -7,11 +9,11 @@ export default function Contact() {
       <div className="absolute w-[500px] h-[500px] bg-amber-500/10 blur-[120px] rounded-full bottom-[-200px] right-[-200px]" />
 
       <div className="relative max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-semibold">
+        <h2 className={`mt-8 text-3xl md:text-4xl font-semibold text-[#E8ECF0] leading-tight text-center ${playfair.className}`}>
           Contacto
         </h2>
 
-        <p className="mt-6 text-slate-300">
+        <p className={`mt-8 text-[#E8ECF0] text-lg leading-relaxed ${playfair.className}`}>
           Coordina tu consulta, y recibí asesoramiento legal eficiente.
         </p>
 
