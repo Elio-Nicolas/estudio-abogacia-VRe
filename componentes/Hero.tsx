@@ -1,28 +1,48 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
-
-      {/* Glow decorativo */}
-      <div className="absolute w-[600px] h-[600px] bg-amber-500/10 blur-[120px] rounded-full top-[-200px] left-1/2 -translate-x-1/2" />
+    <section className="relative min-h-screen flex items-center justify-center px-6 bg-[#E8ECF0]">
 
       <div className="relative max-w-3xl text-center">
-        <span className="uppercase tracking-[0.3em] text-sm text-amber-400">
-         Re Valentina Abogada y mas.. ⚖️
-        </span>
 
-        <h1 className="mt-6 text-5xl md:text-6xl font-bold leading-tight">
-          Asesoramiento legal
-          <span className="text-amber-400"> estratégico</span>
+        {/* Logo más pequeño */}
+        <div className="flex justify-center">
+          <Image
+            src="/LogoB.jpeg"
+            alt="Logo Valentina Re"
+            width={200}
+            height={200}
+            className="object-contain"
+            priority
+          />
+        </div>
+
+        {/* Nombre */}
+        <h1 className="mt-8 text-5xl md:text-6xl font-bold text-[#1E2D4F] leading-tight">
+          Valentina Re
         </h1>
 
-        <p className="mt-8 text-slate-300 text-lg leading-relaxed">
-          Acompañamiento legal y compromiso en cada caso.
+        {/* Profesión */}
+        <span className="block mt-4 uppercase tracking-[0.35em] text-sm text-[#C6A75E]">
+          Abogada
+        </span>
+
+        {/* Frase principal */}
+        <h2 className="mt-8 text-4xl md:text-5xl font-semibold text-[#1E2D4F] leading-tight font-times">
+          Estrategia legal para decisiones importantes
+        </h2>
+
+        {/* Subtexto */}
+        <p className="mt-8 text-[#2E3A59] text-lg leading-tigth font-times">
+          Claridad, compromiso y solidez en la defensa de tus derechos
         </p>
 
-        <div className="mt-10">
+        {/* Botón */}
+        <div className="mt-12">
           <a
             href="#contacto"
-            className="bg-amber-400 text-slate-900 px-8 py-4 rounded-lg font-semibold shadow-lg shadow-amber-500/20 hover:scale-105 transition"
+            className="bg-[#1E2D4F] text-white px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition"
           >
             Solicitar consulta
           </a>

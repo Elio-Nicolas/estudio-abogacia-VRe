@@ -12,12 +12,12 @@ export default function Contact() {
         </h2>
 
         <p className="mt-6 text-slate-300">
-          Coordiná una consulta y recibí asesoramiento profesional.
+          Coordina tu consulta, y recibí asesoramiento legal eficiente.
         </p>
 
         <div className="mt-10 space-y-4 text-lg">
-          <p> Villa Mercedes, San Luis</p>
-          <p> ValentinitaRe@Legales.com</p>
+          <p> abg.valentinare@gmail.com.ar</p>
+            <p> Villa Mercedes, San Luis</p>
         </div>
 
         <a

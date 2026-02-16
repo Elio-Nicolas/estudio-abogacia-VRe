@@ -7,10 +7,12 @@ export default function About() {
         </h2>
 
         <p className="mt-8 text-slate-300 text-lg leading-relaxed">
-           Acompaño a cada cliente de manera personalizada, 
-           brindando asesoramiento claro y compromiso en cada caso.
-           Mi objetivo es acompañarte en cada paso del proceso y puedas
-           tomar decisiones con tranquilidad y respaldo profesional.
+           Servicios jurídicos integrales orientados a la prevención 
+           y resolución eficaz de conflictos. Cada caso es abordado 
+           con análisis riguroso, planificación estratégica y defensa 
+           activa de derechos e intereses, garantizando compromiso 
+           profesional, confidencialidad y trato directo en cada etapa 
+           del proceso.
         </p>
       </div>
     </section>
